@@ -143,9 +143,7 @@ public class frmProductos {
 
                     pruebas.GenerarReportePorOrden("precio DESC");
 
-                } else if (comboBoxReport.getSelectedItem().toString().equals("Hacer que funcione la inserción desde el formulario.")){
-
-                } else {
+                }  else {
                     JOptionPane.showMessageDialog(null, "selecciona una opción");
                 }
 
