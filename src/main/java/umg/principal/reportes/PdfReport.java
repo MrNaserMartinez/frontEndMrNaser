@@ -49,7 +49,7 @@ public class PdfReport {
     }
 
     private void addTitle(Document document) throws DocumentException {
-        Paragraph title = new Paragraph("Reporte de mi Primer PDF", TITLE_FONT);
+        Paragraph title = new Paragraph("Naser Martínez Carnet: 0905-23-3623", TITLE_FONT);
         title.setAlignment(Element.ALIGN_CENTER);
         document.add(title);
         document.add(Chunk.NEWLINE);
